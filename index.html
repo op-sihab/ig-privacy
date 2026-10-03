@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — er-ai-reply-IG</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 46rem; margin: 0 auto; padding: 2.2rem 1.2rem 4rem;
+         font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: #1c1e21; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e4e6eb; background: #18191a; } a { color: #7cb4ff; } }
+  h1 { font-size: 1.6rem; margin-bottom: .2rem; }
+  h2 { font-size: 1.12rem; margin-top: 2rem; }
+  .sub { color: #65676b; font-size: .9rem; margin-top: 0; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  code { background: rgba(127,127,127,.15); padding: .1rem .3rem; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="sub">Application: <strong>er-ai-reply-IG</strong> (Instagram app ID 1763039501634279)<br>
+Last updated: 3 October 2026</p>
+
+<p>This application is a private, self-hosted automation that answers Instagram Direct
+Messages sent to the Instagram professional account <strong>@op_sihab</strong>. It is operated by
+the owner of that account for their own account only. It is not a public product, it has no
+other users, and it does not advertise to or collect data about the general public.</p>
+
+<h2>1. What this application does</h2>
+<ul>
+  <li>It receives Instagram Direct Messages sent to @op_sihab through Meta's official
+      Instagram Messaging API (webhooks).</li>
+  <li>It generates a reply to each such message, using a large language model, and sends
+      that reply back to the same person through the same official API.</li>
+  <li>It replies only to people who have chosen to message the account first. It never
+      sends unsolicited messages.</li>
+</ul>
+
+<h2>2. Information we process</h2>
+<ul>
+  <li><strong>Message content</strong> that a person sends to @op_sihab, including text and any
+      attachment notice.</li>
+  <li><strong>Instagram-scoped identifiers</strong> (an account ID number issued by Instagram
+      for this app) and, when available, the public username, display name and profile
+      picture of the person who messaged us.</li>
+  <li><strong>Timestamps</strong> of the conversation, used to respect Instagram's 24-hour
+      reply window.</li>
+</ul>
+<p>We do not collect email addresses, phone numbers, passwords, one-time codes, payment
+details, or any special-category data. We do not use cookies, advertising identifiers or
+tracking pixels, and this website has no analytics.</p>
+
+<h2>3. Why we process it</h2>
+<ul>
+  <li>To generate and send a relevant reply to the person's message.</li>
+  <li>To keep a short conversation history so a follow-up message is answered in context.</li>
+  <li>To know whether a conversation is still inside Instagram's 24-hour reply window.</li>
+</ul>
+
+<h2>4. Legal basis</h2>
+<p>Processing is based on the consent implied when a person chooses to send a message to
+@op_sihab, and on the legitimate interest of the account owner in answering messages
+addressed to them.</p>
+
+<h2>5. Who we share it with</h2>
+<p>Data is not sold, rented or shared for advertising. The only third parties involved in
+processing are:</p>
+<ul>
+  <li><strong>Meta Platforms, Inc.</strong> — messages travel through, and replies are
+      delivered by, Meta's Instagram Messaging API under Meta's Platform Terms.</li>
+  <li><strong>A large language model provider</strong> — the text of the conversation is sent to
+      an API provider (currently accessed through the developer's own API gateway account)
+      solely to compose the reply. The provider does not receive the person's password or
+      any data beyond the conversation text and the name they use on Instagram.</li>
+</ul>
+
+<h2>6. Storage and retention</h2>
+<ul>
+  <li>Messages and replies are stored in a local SQLite database on the operator's own
+      computer, protected by the operating system account of that computer. They are not
+      exposed to the internet.</li>
+  <li>Conversation history is kept only as long as needed to answer follow-up messages.
+      The operator deletes it on request and clears it periodically.</li>
+  <li>Access tokens issued by Meta are stored only on that computer and expire after
+      60 days unless refreshed by the operator.</li>
+</ul>
+
+<h2>7. Your rights</h2>
+<p>Anyone who has messaged @op_sihab may ask what is stored about them and ask for it to be
+corrected or deleted. See the <a href="data-deletion.html">data deletion instructions</a>, or simply
+send a message to @op_sihab on Instagram. Deletion requests are honoured within 30 days.</p>
+
+<h2>8. Security</h2>
+<ul>
+  <li>All communication with Meta's APIs uses HTTPS, and every incoming webhook is
+      cryptographically verified with the app secret.</li>
+  <li>No one can log into this application with an Instagram username and password; it
+      uses OAuth access tokens issued by Meta and can be revoked at any time from the
+      Instagram app (Settings → Apps and websites).</li>
+  <li>The service does not ask for, store, or transmit passwords, one-time codes, or card
+      details, and it is configured never to send them.</li>
+</ul>
+
+<h2>9. Children</h2>
+<p>This application is not directed to children under 13 and does not knowingly process
+their personal data.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>Any change to this policy is published on this page with an updated date.</p>
+
+<h2>11. Contact</h2>
+<p>Write to the operator on Instagram at <strong>@op_sihab</strong>
+(<a href="https://instagram.com/op_sihab">instagram.com/op_sihab</a>), or email
+<strong>op-sihab@users.noreply.github.com</strong>.</p>
+
+</body>
+</html>
